@@ -1,7 +1,17 @@
 # Chat App 
 Chat application with SwiftUI and Firebase
 
-### Milestone 0: Setting up the project and app architecture
+### ✅ Milestone 0: Setting up the project and app architecture ✅
+- Added custom Font to the project and added an extension to use it easily
+![image](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/69a410d7-ff0c-40f5-83f4-2614fbab28ed)
+
+- Added images
+- Added Colors and gave them names to access easily
+- Created App architecture and created folders
+
+![image](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/085aac23-5d65-4314-befb-3be1b5630602)
+
+
 ### Milestone 1: Custom tab bar design
 ### Milestone 2: Set up Firebase 
 ### Milestone 3: Onboarding UI
@@ -15,6 +25,6 @@ Chat application with SwiftUI and Firebase
 ### Milestone 11: Group chat
 ### Milestone 12: Settings view 
 ### Milestone 13: Dark Mode
-### Milestone 14: Delete Account and handling deleted users
+### Milestone 14: Delete Account and handle deleted users
 
-### In app screenshots 
+### In-app screenshots 
