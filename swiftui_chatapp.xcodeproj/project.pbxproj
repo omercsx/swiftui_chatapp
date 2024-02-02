@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		061E2F1B2B6BE23E00209E16 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E2F1A2B6BE23E00209E16 /* Font.swift */; };
+		061E2F1E2B6CECE600209E16 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E2F1D2B6CECE600209E16 /* CustomTabBarView.swift */; };
+		061E2F202B6CF70300209E16 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E2F1F2B6CF70300209E16 /* TabBarButton.swift */; };
 		066E15412B67895100E8D512 /* swiftui_chatappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E15402B67895100E8D512 /* swiftui_chatappApp.swift */; };
 		066E15432B67895100E8D512 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E15422B67895100E8D512 /* RootView.swift */; };
 		066E15452B67895200E8D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066E15442B67895200E8D512 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		061E2F182B6BDF6700209E16 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
 		061E2F192B6BDFA900209E16 /* swiftui-chatapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swiftui-chatapp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		061E2F1A2B6BE23E00209E16 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		061E2F1D2B6CECE600209E16 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		061E2F1F2B6CF70300209E16 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		066E153D2B67895100E8D512 /* swiftui_chatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_chatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		066E15402B67895100E8D512 /* swiftui_chatappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_chatappApp.swift; sourceTree = "<group>"; };
 		066E15422B67895100E8D512 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -41,6 +45,7 @@
 		061E2F102B6BDB5D00209E16 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				061E2F1C2B6CECBF00209E16 /* Custom Tab Bar */,
 				066E15422B67895100E8D512 /* RootView.swift */,
 			);
 			path = Views;
@@ -83,6 +88,15 @@
 				061E2F162B6BDF6700209E16 /* LexendDeca-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		061E2F1C2B6CECBF00209E16 /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				061E2F1D2B6CECE600209E16 /* CustomTabBarView.swift */,
+				061E2F1F2B6CF70300209E16 /* TabBarButton.swift */,
+			);
+			path = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 		066E15342B67895100E8D512 = {
@@ -199,6 +213,8 @@
 				066E15432B67895100E8D512 /* RootView.swift in Sources */,
 				066E15412B67895100E8D512 /* swiftui_chatappApp.swift in Sources */,
 				061E2F1B2B6BE23E00209E16 /* Font.swift in Sources */,
+				061E2F202B6CF70300209E16 /* TabBarButton.swift in Sources */,
+				061E2F1E2B6CECE600209E16 /* CustomTabBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
