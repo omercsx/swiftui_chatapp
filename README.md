@@ -12,7 +12,13 @@ Chat application with SwiftUI and Firebase
 ![image](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/085aac23-5d65-4314-befb-3be1b5630602)
 
 
-### Milestone 1: Custom tab bar design
+### ✅ Milestone 1: Custom tab bar design ✅
+- Added custom tab bar
+- There is an indicator on the selected tab
+- Button is separate component to use more places
+
+  ![image](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/11000ffe-eb10-47fc-9cb1-97828e5540af)
+
 ### Milestone 2: Set up Firebase 
 ### Milestone 3: Onboarding UI
 ### Milestone 4: Fetching the User's Contacts 
