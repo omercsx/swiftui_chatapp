@@ -20,7 +20,7 @@ struct RootView: View {
             CustomTabBarView(selectedTab: $selectedTab)
         }
         .fullScreenCover(isPresented: $isOnboarding, onDismiss: {}, content: {
-            OnboardingContainerView()
+            OnboardingContainerView(isOnboarding: $isOnboarding)
         })
     }
 }

@@ -17,6 +17,7 @@ enum OnboardingSteps: Int {
 
 struct OnboardingContainerView: View {
     @State var currentStep: OnboardingSteps = .welcome
+    @Binding var isOnboarding: Bool
 
     var body: some View {
         ZStack {
@@ -37,12 +38,12 @@ struct OnboardingContainerView: View {
                 CreateProfileView(currentStep: $currentStep)
 
             case .contacts:
-                SyncContactsView()
+                SyncContactsView(isOnboarding: $isOnboarding)
             }
         }
     }
 }
 
 #Preview {
-    OnboardingContainerView()
+    OnboardingContainerView(isOnboarding: .constant(false))
 }
