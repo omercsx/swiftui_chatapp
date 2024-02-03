@@ -1,0 +1,48 @@
+//
+//  OnboardingContainerView.swift
+//  swiftui_chatapp
+//
+//  Created by Omer Cagri Sayir on 3.02.2024.
+//
+
+import SwiftUI
+
+enum OnboardingSteps: Int {
+    case welcome = 0
+    case phoneNumber = 1
+    case verification = 2
+    case profile = 3
+    case contacts = 4
+}
+
+struct OnboardingContainerView: View {
+    @State var currentStep: OnboardingSteps = .welcome
+
+    var body: some View {
+        ZStack {
+            Color("background")
+                .ignoresSafeArea()
+
+            switch currentStep {
+            case .welcome:
+                WelcomeView(currentStep: $currentStep)
+                
+            case .phoneNumber:
+                PhoneNumberView()
+                
+            case .verification:
+                VerificationView()
+                
+            case .profile:
+                CreateProfileView()
+                
+            case .contacts:
+                SyncContactsView()
+            }
+        }
+    }
+}
+
+#Preview {
+    OnboardingContainerView()
+}

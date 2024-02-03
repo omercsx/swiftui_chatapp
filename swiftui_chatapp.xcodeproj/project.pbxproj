@@ -29,6 +29,13 @@
 		066E15432B67895100E8D512 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E15422B67895100E8D512 /* RootView.swift */; };
 		066E15452B67895200E8D512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066E15442B67895200E8D512 /* Assets.xcassets */; };
 		066E15482B67895200E8D512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066E15472B67895200E8D512 /* Preview Assets.xcassets */; };
+		068EA39F2B6E477200B157D2 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA39E2B6E477200B157D2 /* OnboardingContainerView.swift */; };
+		068EA3A12B6E488000B157D2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A02B6E488000B157D2 /* WelcomeView.swift */; };
+		068EA3A32B6E488B00B157D2 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A22B6E488B00B157D2 /* PhoneNumberView.swift */; };
+		068EA3A52B6E489500B157D2 /* VerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A42B6E489500B157D2 /* VerificationView.swift */; };
+		068EA3A72B6E48A300B157D2 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A62B6E48A300B157D2 /* CreateProfileView.swift */; };
+		068EA3A92B6E48B000B157D2 /* SyncContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A82B6E48B000B157D2 /* SyncContactsView.swift */; };
+		068EA3AB2B6E4A4A00B157D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,13 @@
 		066E15422B67895100E8D512 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		066E15442B67895200E8D512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		066E15472B67895200E8D512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		068EA39E2B6E477200B157D2 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		068EA3A02B6E488000B157D2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		068EA3A22B6E488B00B157D2 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		068EA3A42B6E489500B157D2 /* VerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationView.swift; sourceTree = "<group>"; };
+		068EA3A62B6E48A300B157D2 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		068EA3A82B6E48B000B157D2 /* SyncContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncContactsView.swift; sourceTree = "<group>"; };
+		068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,7 @@
 		061E2F102B6BDB5D00209E16 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				068EA39D2B6E475E00B157D2 /* Onboarding */,
 				061E2F1C2B6CECBF00209E16 /* Custom Tab Bar */,
 				066E15422B67895100E8D512 /* RootView.swift */,
 			);
@@ -171,6 +186,7 @@
 				061E2F142B6BDB7D00209E16 /* Helpers */,
 				066E15442B67895200E8D512 /* Assets.xcassets */,
 				066E15462B67895200E8D512 /* Preview Content */,
+				068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */,
 			);
 			path = swiftui_chatapp;
 			sourceTree = "<group>";
@@ -181,6 +197,19 @@
 				066E15472B67895200E8D512 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		068EA39D2B6E475E00B157D2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				068EA39E2B6E477200B157D2 /* OnboardingContainerView.swift */,
+				068EA3A02B6E488000B157D2 /* WelcomeView.swift */,
+				068EA3A22B6E488B00B157D2 /* PhoneNumberView.swift */,
+				068EA3A42B6E489500B157D2 /* VerificationView.swift */,
+				068EA3A62B6E48A300B157D2 /* CreateProfileView.swift */,
+				068EA3A82B6E48B000B157D2 /* SyncContactsView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,10 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068EA3A32B6E488B00B157D2 /* PhoneNumberView.swift in Sources */,
 				066E15432B67895100E8D512 /* RootView.swift in Sources */,
+				068EA3A72B6E48A300B157D2 /* CreateProfileView.swift in Sources */,
 				066E15412B67895100E8D512 /* swiftui_chatappApp.swift in Sources */,
 				061E2F422B6D003500209E16 /* AuthViewModel.swift in Sources */,
+				068EA3A12B6E488000B157D2 /* WelcomeView.swift in Sources */,
+				068EA3A52B6E489500B157D2 /* VerificationView.swift in Sources */,
 				061E2F1B2B6BE23E00209E16 /* Font.swift in Sources */,
+				068EA3AB2B6E4A4A00B157D2 /* AppDelegate.swift in Sources */,
+				068EA3A92B6E48B000B157D2 /* SyncContactsView.swift in Sources */,
+				068EA39F2B6E477200B157D2 /* OnboardingContainerView.swift in Sources */,
 				061E2F202B6CF70300209E16 /* TabBarButton.swift in Sources */,
 				061E2F1E2B6CECE600209E16 /* CustomTabBarView.swift in Sources */,
 			);
