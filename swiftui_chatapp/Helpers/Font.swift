@@ -14,7 +14,7 @@ extension Font {
     }
 
     public static var button: Font {
-        return Font.custom("LexendDeca-SemiBold", size: 14)
+        return Font.custom("LexendDeca-SemiBold", size: 14).weight(.semibold)
     }
 
     public static var smallText: Font {
@@ -30,14 +30,14 @@ extension Font {
     }
 
     public static var titleText: Font {
-        return Font.custom("LexendDeca-Bold", size: 23)
+        return Font.custom("LexendDeca-Bold", size: 23).bold()
     }
 
     public static var pageTitle: Font {
-        return Font.custom("LexendDeca-SemiBold", size: 33)
+        return Font.custom("LexendDeca-SemiBold", size: 33).weight(.semibold)
     }
 
     public static var chatHeading: Font {
-        return Font.custom("LexendDeca-SemiBold", size: 19)
+        return Font.custom("LexendDeca-SemiBold", size: 19).weight(.semibold)
     }
 }
