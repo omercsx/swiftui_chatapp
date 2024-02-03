@@ -25,7 +25,19 @@ Chat application with SwiftUI and Firebase
 - Created basic functions in AuthViewModel (isUserLoggedIn, getLoggedInUserID, and Logout)
 
   
-### Milestone 3: Onboarding UI
+### ✅ Milestone 3: Onboarding UI ✅
+- Started onboarding if the user is not logged in.
+- Started it as fullscreencover
+- Created container view (OnboardingContainerView). In ZStack created Switch-case and passed currentStep as parameter to the views.
+- Created custom styles for Button and Text Fields
+  
+![image](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/9b491521-c63a-4917-906c-791c9744115f)
+
+  
+- Completed just UI not functionality
+  
+![Adobe Express 2024-02-03 14 47 19](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/2b720086-1afe-4957-aaba-2a1a03501729)
+
 ### Milestone 4: Fetching the User's Contacts 
 ### Milestone 5: Uploading the Profile Photo 
 ### Milestone 6: Authentication 
