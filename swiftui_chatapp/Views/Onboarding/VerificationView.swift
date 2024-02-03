@@ -49,6 +49,7 @@ struct VerificationView: View {
             Spacer()
 
             Button(action: {
+                currentStep = .profile
             }, label: {
                 Text("Next")
             })

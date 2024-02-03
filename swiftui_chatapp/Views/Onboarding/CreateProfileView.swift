@@ -8,11 +8,61 @@
 import SwiftUI
 
 struct CreateProfileView: View {
+    @Binding var currentStep: OnboardingSteps
+    @State var firstname = ""
+    @State var lastname = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Setup your Profile")
+                .font(Font.titleText)
+                .padding(.top, 52)
+
+            Text("Just a few more details to get started.")
+                .font(Font.bodyParagraph)
+                .padding(.top, 12)
+
+            Spacer()
+
+            // Profile image button
+            Button(action: /*@START_MENU_TOKEN@*/ {}/*@END_MENU_TOKEN@*/, label: {
+                ZStack {
+                    Circle()
+                        .foregroundStyle(Color.white)
+
+                    Circle()
+                        .stroke(lineWidth: 1)
+
+                    Image(systemName: "camera.fill")
+                        .tint(Color.iconsInput)
+                }
+                .frame(width: 134, height: 134)
+            })
+            Spacer()
+            // First Name
+
+            TextField("First Name", text: $firstname)
+                .textFieldStyle(CreateProfileTextFieldStyle())
+
+            // Last Name
+
+            TextField("Last Name", text: $lastname)
+                .textFieldStyle(CreateProfileTextFieldStyle())
+
+            Spacer()
+
+            Button(action: {
+                currentStep = .contacts
+            }, label: {
+                Text("Next")
+            })
+            .buttonStyle(OnboardingButtonStyle())
+            .padding(.bottom, 87)
+        }
+        .padding(.horizontal, 14)
     }
 }
 
 #Preview {
-    CreateProfileView()
+    CreateProfileView(currentStep: .constant(.profile))
 }

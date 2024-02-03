@@ -34,7 +34,7 @@ struct OnboardingContainerView: View {
                 VerificationView(currentStep: $currentStep)
 
             case .profile:
-                CreateProfileView()
+                CreateProfileView(currentStep: $currentStep)
 
             case .contacts:
                 SyncContactsView()
