@@ -23,7 +23,6 @@
 		061E2F372B6CFB6700209E16 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 061E2F362B6CFB6700209E16 /* FirebaseFunctionsCombine-Community */; };
 		061E2F392B6CFB6700209E16 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 061E2F382B6CFB6700209E16 /* FirebaseStorage */; };
 		061E2F3B2B6CFB6700209E16 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 061E2F3A2B6CFB6700209E16 /* FirebaseStorageCombine-Community */; };
-		061E2F3D2B6CFBB800209E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E2F3C2B6CFBB800209E16 /* AppDelegate.swift */; };
 		061E2F402B6CFE1800209E16 /* AuthKey_B3W7X9N7T2.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 061E2F3F2B6CFE1800209E16 /* AuthKey_B3W7X9N7T2.p8 */; };
 		061E2F422B6D003500209E16 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061E2F412B6D003500209E16 /* AuthViewModel.swift */; };
 		066E15412B67895100E8D512 /* swiftui_chatappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066E15402B67895100E8D512 /* swiftui_chatappApp.swift */; };
@@ -41,7 +40,6 @@
 		061E2F1D2B6CECE600209E16 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		061E2F1F2B6CF70300209E16 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		061E2F212B6CFA6B00209E16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		061E2F3C2B6CFBB800209E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		061E2F3E2B6CFD3600209E16 /* swiftui_chatapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftui_chatapp.entitlements; sourceTree = "<group>"; };
 		061E2F3F2B6CFE1800209E16 /* AuthKey_B3W7X9N7T2.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_B3W7X9N7T2.p8; sourceTree = "<group>"; };
 		061E2F412B6D003500209E16 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 				061E2F142B6BDB7D00209E16 /* Helpers */,
 				066E15442B67895200E8D512 /* Assets.xcassets */,
 				066E15462B67895200E8D512 /* Preview Content */,
-				061E2F3C2B6CFBB800209E16 /* AppDelegate.swift */,
 			);
 			path = swiftui_chatapp;
 			sourceTree = "<group>";
@@ -275,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				061E2F3D2B6CFBB800209E16 /* AppDelegate.swift in Sources */,
 				066E15432B67895100E8D512 /* RootView.swift in Sources */,
 				066E15412B67895100E8D512 /* swiftui_chatappApp.swift in Sources */,
 				061E2F422B6D003500209E16 /* AuthViewModel.swift in Sources */,
