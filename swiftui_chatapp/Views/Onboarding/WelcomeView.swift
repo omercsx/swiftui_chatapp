@@ -9,7 +9,7 @@ import SwiftUI
 
 struct WelcomeView: View {
     @Binding var currentStep: OnboardingSteps
-    
+
     var body: some View {
         VStack {
             Spacer()
@@ -24,25 +24,20 @@ struct WelcomeView: View {
                 .padding(.top, 8)
 
             Spacer()
-            
-            Button(action:  {
+
+            Button(action: {
                 currentStep = .phoneNumber
             }, label: {
                 Text("Get Started")
-                    .frame(maxWidth: .infinity)
-                    .foregroundStyle(Color.textButton)
-                    .padding(.vertical, 5)
             })
-            .frame(height: 50)
-            .buttonStyle(.borderedProminent)
-            .padding(.horizontal)
-            .tint(Color.buttonPrimary)
+            .buttonStyle(OnboardingButtonStyle())
 
             Text("By tapping 'Get Started', you agree to our Privacy Policy.")
                 .font(Font.smallText)
                 .padding(.top, 14)
                 .padding(.bottom, 61)
         }
+        .padding(.horizontal, 14)
     }
 }
 

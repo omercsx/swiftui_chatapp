@@ -36,6 +36,7 @@
 		068EA3A72B6E48A300B157D2 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A62B6E48A300B157D2 /* CreateProfileView.swift */; };
 		068EA3A92B6E48B000B157D2 /* SyncContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3A82B6E48B000B157D2 /* SyncContactsView.swift */; };
 		068EA3AB2B6E4A4A00B157D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */; };
+		068EA3AD2B6E4E5800B157D2 /* OnboardingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3AC2B6E4E5800B157D2 /* OnboardingButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		068EA3A62B6E48A300B157D2 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
 		068EA3A82B6E48B000B157D2 /* SyncContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncContactsView.swift; sourceTree = "<group>"; };
 		068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		068EA3AC2B6E4E5800B157D2 /* OnboardingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				061E2F1A2B6BE23E00209E16 /* Font.swift */,
+				068EA3AC2B6E4E5800B157D2 /* OnboardingButtonStyle.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				066E15432B67895100E8D512 /* RootView.swift in Sources */,
 				068EA3A72B6E48A300B157D2 /* CreateProfileView.swift in Sources */,
 				066E15412B67895100E8D512 /* swiftui_chatappApp.swift in Sources */,
+				068EA3AD2B6E4E5800B157D2 /* OnboardingButtonStyle.swift in Sources */,
 				061E2F422B6D003500209E16 /* AuthViewModel.swift in Sources */,
 				068EA3A12B6E488000B157D2 /* WelcomeView.swift in Sources */,
 				068EA3A52B6E489500B157D2 /* VerificationView.swift in Sources */,
