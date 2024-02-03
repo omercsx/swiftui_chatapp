@@ -26,16 +26,16 @@ struct OnboardingContainerView: View {
             switch currentStep {
             case .welcome:
                 WelcomeView(currentStep: $currentStep)
-                
+
             case .phoneNumber:
                 PhoneNumberView(currentStep: $currentStep)
-                
+
             case .verification:
-                VerificationView()
-                
+                VerificationView(currentStep: $currentStep)
+
             case .profile:
                 CreateProfileView()
-                
+
             case .contacts:
                 SyncContactsView()
             }

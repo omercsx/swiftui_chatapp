@@ -16,6 +16,7 @@ struct OnboardingButtonStyle: ButtonStyle {
                 .foregroundStyle(Color.buttonPrimary)
 
             configuration.label
+                .bold()
                 .font(Font.button)
                 .foregroundStyle(Color.textButton)
         }
