@@ -38,6 +38,7 @@
 		068EA3AB2B6E4A4A00B157D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */; };
 		068EA3AD2B6E4E5800B157D2 /* OnboardingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3AC2B6E4E5800B157D2 /* OnboardingButtonStyle.swift */; };
 		068EA3AF2B6E5B1F00B157D2 /* CreateProfileTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3AE2B6E5B1F00B157D2 /* CreateProfileTextFieldStyle.swift */; };
+		068EA3B12B6F887600B157D2 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068EA3B02B6F887600B157D2 /* ContactsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		068EA3AA2B6E4A4A00B157D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		068EA3AC2B6E4E5800B157D2 /* OnboardingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButtonStyle.swift; sourceTree = "<group>"; };
 		068EA3AE2B6E5B1F00B157D2 /* CreateProfileTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileTextFieldStyle.swift; sourceTree = "<group>"; };
+		068EA3B02B6F887600B157D2 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				061E2F412B6D003500209E16 /* AuthViewModel.swift */,
+				068EA3B02B6F887600B157D2 /* ContactsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				068EA3A92B6E48B000B157D2 /* SyncContactsView.swift in Sources */,
 				068EA39F2B6E477200B157D2 /* OnboardingContainerView.swift in Sources */,
 				068EA3AF2B6E5B1F00B157D2 /* CreateProfileTextFieldStyle.swift in Sources */,
+				068EA3B12B6F887600B157D2 /* ContactsViewModel.swift in Sources */,
 				061E2F202B6CF70300209E16 /* TabBarButton.swift in Sources */,
 				061E2F1E2B6CECE600209E16 /* CustomTabBarView.swift in Sources */,
 			);
