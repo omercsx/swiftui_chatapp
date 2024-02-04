@@ -28,7 +28,7 @@ Chat application with SwiftUI and Firebase
 ### ✅ Milestone 3: Onboarding UI ✅
 - Started onboarding if the user is not logged in.
 - Started it as fullscreencover
-- Created container view (OnboardingContainerView). In ZStack created Switch-case and passed currentStep as parameter to the views.
+- Created container view (OnboardingContainerView). In ZStack created Switch-case and passed currentStep as a parameter to the views.
 - Created custom styles for Button and Text Fields
   
 ![image](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/9b491521-c63a-4917-906c-791c9744115f)
@@ -39,6 +39,11 @@ Chat application with SwiftUI and Firebase
 ![Adobe Express 2024-02-03 14 47 19](https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/2b720086-1afe-4957-aaba-2a1a03501729)
 
 ### Milestone 4: Fetching the User's Contacts 
+- Created Contacts ViewModel and asked permission to access it at the end of onboarding
+  
+<img src="https://github.com/cagrisayir/swiftui_chatapp/assets/44059539/cee0568c-b9ae-47a9-a0fa-220c40c1bf52" width=300 height=400 />
+
+  
 ### Milestone 5: Uploading the Profile Photo 
 ### Milestone 6: Authentication 
 ### Milestone 7: Chat UI 
